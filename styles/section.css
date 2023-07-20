@@ -1,0 +1,277 @@
+.section-intro {
+  height: 40rem;
+  padding-top: 5rem;
+  background: url("../images/rangobacground.png") no-repeat center center/cover;
+  background-position: bottom;
+}
+.section-title {
+  color: white;
+  font-weight: 500;
+  font-size: 3rem;
+}
+
+/********** about section  **************/
+.testimonial-section-content {
+  position: relative;
+  width: 80%;
+  height: 100%;
+  overflow: hidden;
+}
+.about-grid {
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4.8rem;
+}
+.team-section-intro {
+  width: 80%;
+  margin: auto;
+}
+.team-section-intro .secondary-para {
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 11rem;
+}
+.team-container {
+  width: 25rem;
+  background: #fafbfb;
+  margin-left: 11rem;
+  transition: 0.5s;
+}
+.team-container:hover {
+  background-color: var(--secondary-color);
+}
+.team-container:hover h2 {
+  color: white;
+}
+.team-container:hover h3 {
+  color: white;
+}
+.team-container:hover p {
+  color: white;
+}
+.team-member-img {
+  position: relative;
+  height: 25rem;
+  width: 25rem;
+}
+.team-member-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  left: -8rem;
+  top: -5rem;
+}
+.team-content {
+  padding: 2.4rem;
+  margin-top: -4rem;
+}
+/********** Service section  **************/
+
+.service-boxes {
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 6.4rem;
+  column-gap: 4.8rem;
+}
+.cta-container {
+  padding: 6.4rem;
+  background-color: var(--secondary-color);
+  justify-content: center;
+  align-items: flex-end;
+  gap: 9.6rem;
+}
+.cta-container .primary-heading {
+  font-size: 4.2rem;
+  margin-bottom: 0.5rem;
+}
+.cta-container .primary-para {
+  font-size: 1.8rem;
+}
+.service-card-container {
+  align-items: center;
+  justify-content: center;
+  gap: 4.8rem;
+}
+.card {
+  width: 35rem;
+  background: #fafbfb;
+  transition: 0.5s;
+  border-radius: 5px;
+}
+.card:hover {
+  box-shadow: 0px 30px 59px rgba(24, 29, 33, 0.23);
+}
+.card-content {
+  padding: 4rem 5rem;
+}
+.service-card-title {
+  font-weight: 500;
+  line-height: 1.5;
+  margin-bottom: 2.4rem;
+  font-size: 2rem;
+  color: var(--primary-color);
+}
+.service-card-container h3,
+.portfolio-content h3 {
+  margin-top: 2.4rem;
+  font-size: 1.2rem;
+  color: var(--secondary-color);
+  font-weight: 700;
+}
+.card-img img {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  width: 100%;
+  height: 20rem;
+}
+.device-section {
+  gap: 4.8rem;
+  justify-content: flex-end;
+  margin-bottom: 12.5rem;
+  align-items: center;
+}
+.device-section-content {
+  width: 53rem;
+}
+.device-section-img {
+  width: 50%;
+}
+.device-section-img img {
+  width: 100%;
+}
+.device-item-number {
+  margin-right: 2.4rem;
+  min-width: 6rem;
+  height: 6rem;
+  background-color: var(--secondary-color);
+  color: white;
+  font-size: 1.8rem;
+  border-radius: 50%;
+}
+/********** Portfolio section  **************/
+.portfolio-section,
+.contact-container {
+  border-bottom: 1px solid rgb(208, 206, 206);
+}
+.portfolio-category {
+  margin-bottom: 9.6rem;
+}
+.hidden {
+  display: none;
+}
+.show {
+  animation: animate 0.4s ease;
+}
+@keyframes animate {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.portfolio-category li {
+  display: inline-block;
+  line-height: 3rem;
+  margin-right: 4.8rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  cursor: pointer;
+  color: var(--primary-color);
+}
+.portfolio-items {
+  display: flex;
+  flex-direction: column;
+  gap: 6.4rem;
+}
+.portfolio-item {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3.2rem;
+}
+.portfolio-img {
+  min-width: 55rem;
+  height: 30rem;
+  object-fit: cover;
+}
+
+.portfolio-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.gola-img {
+  background-color: rgb(159, 201, 201);
+  text-align: center;
+}
+.gola-img img {
+  width: 80%;
+}
+.portfolio-content h2 {
+  font-size: 1.2rem;
+  color: #838383;
+  font-weight: 400;
+  letter-spacing: 0.2em;
+  margin-bottom: 1rem;
+}
+.portfolio-content h1 {
+  margin-bottom: 3.2rem;
+}
+/********** Contact section  **************/
+.contact-section {
+  gap: 4.8rem;
+}
+.contact-info {
+  width: 30%;
+}
+.contact-form {
+  width: 70%;
+}
+.contact-info-footer {
+  gap: 3.2rem;
+}
+.contact-info-icon {
+  min-width: 3.2rem;
+  height: 3.2rem;
+  color: #ffffff;
+  font-size: 1.7rem;
+  background: var(--secondary-color);
+  border-radius: 50%;
+}
+.form-grid {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3.2rem;
+}
+.contact-form input,
+textarea {
+  color: var(--secondary-color);
+  outline: none;
+  margin-bottom: 1.2rem;
+  width: 100%;
+  height: 4.5rem;
+  border: none;
+  border-bottom: 1px solid #e1e1e1;
+}
+.contact-form input:focus,
+textarea:focus {
+  border-bottom: 1px solid var(--secondary-color);
+}
+
+.contact-form textarea {
+  height: 10rem;
+  margin-top: 1.2rem;
+  margin-bottom: 6.4rem;
+}
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  font-size: 1.3rem;
+  color: #aaa8a8;
+  font-family: "Poppins", sans-serif;
+}
+input.form-error {
+  border-bottom: 1px solid red;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  transition: background-color 5000s ease-in-out 0s;
+}
