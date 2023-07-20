@@ -345,6 +345,9 @@ nav .logo {
 .features-content-right {
   text-align: right;
 }
+.features-img img {
+  max-width: 25rem;
+}
 /************************************/
 /*********** cta Section ************/
 /************************************/
